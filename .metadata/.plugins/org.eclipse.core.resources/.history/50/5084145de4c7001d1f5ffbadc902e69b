@@ -1,0 +1,25 @@
+package com.demo1;
+
+import org.testng.annotations.Test;
+
+import net.bytebuddy.implementation.bind.annotation.BindingPriority;
+
+public class Maven_Project {
+	@Test
+	private void highSec(BindingPriority) {
+System.out.println("12thSTANDARD");
+	}
+	@Test
+	private void collegeUg() {
+System.out.println("BSC");
+	}
+	
+	@Test
+	private void collegePg() {
+System.out.println("MSC");
+	}
+	
+	
+	
+	
+}

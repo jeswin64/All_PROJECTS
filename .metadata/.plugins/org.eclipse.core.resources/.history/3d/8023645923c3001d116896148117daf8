@@ -1,0 +1,21 @@
+package com.demo;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Base_Class {
+	public static WebDriver driver;
+		
+	
+	private void getDriver() {
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\eclipse-workspace\\Project_Maven\\driver\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+	}
+	
+	private void getUrl() {
+Driver.get
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.demoo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.demo.Base_Class;
+
+public class Project_Maven extends Base_Class {
+
+	public static void main(String[] args) {
+
+		getDriver();
+
+		getUrl("https://www.facebook.com/login/");
+		WebElement findElement = driver.findElement(By.xpath("//input[@id=\"email\"]"));
+		inputValue(findElement, "1234");
+
+		WebElement findElement2 = driver.findElement(By.xpath("//button[@name=\"login\"]"));
+		clickOnElement(findElement2);
+	}
+
+}
